@@ -1,6 +1,7 @@
 def main():
-    slow = input("Input ")
-    print(myFunction(slow))
+    slow = input("Input: ")
+    new = myFunction(slow)
+    print(new)
     
 
 def myFunction(text):
