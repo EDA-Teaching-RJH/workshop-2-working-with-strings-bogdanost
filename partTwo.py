@@ -1,9 +1,13 @@
 import math  
 
 def main():
-#TO DO  
+    first = int(input("First side: "))
+    second = int(input("Second side: "))
+    C = pythag(first,second)
+    return C
 
 def pythag(A,B):
-#TO DO  
+    C = (A**2 + B**2)**0.5
+    return C
 
-main()
+print(main())
